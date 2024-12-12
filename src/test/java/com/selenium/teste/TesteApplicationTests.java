@@ -118,7 +118,7 @@ public class TesteApplicationTests {
         // clicando no botão sair
         navegador.findElement(By.xpath("//a[contains(@class, 'text-light') and text()='Sair']")).click();
 
-        //fechando navegador
+        //fechando navegadorok
         navegador.quit();
     }
 }
